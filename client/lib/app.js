@@ -1,4 +1,4 @@
-angular.module('kManagementSystem', ['angular-meteor', 'ui.router']);
+angular.module('kManagementSystem', ['angular-meteor', 'ui.router', 'ngMaterial']);
 
 function onReady() {
   angular.bootstrap(document, ['kManagementSystem']);
