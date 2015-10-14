@@ -11,5 +11,5 @@
         controllerAs: 'lc'
       })
  
-      $urlRouterProvider.otherwise("/login");
+      $urlRouterProvider.otherwise("/");
     }]);
