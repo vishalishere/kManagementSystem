@@ -1,11 +1,11 @@
 Meteor.startup(function () {
   if (Orders.find().count() === 0) {
     var orders = [
-      {'name': 'Dubstep-Free Zone',
+      {'table': 'Стол 1',
         'description': 'Fast just got faster with Nexus S.'},
-      {'name': 'All dubstep all the time',
+      {'name': 'Стол 4',
         'description': 'Get it on!'},
-      {'name': 'Savage lounging',
+      {'name': 'Закрытвя З',
         'description': 'Leisure suit required. And only fiercest manners.'}
     ];
     for (var i = 0; i < orders.length; i++)

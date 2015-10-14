@@ -1,0 +1,50 @@
+<md-content>
+  <md-toolbar flex-offset-sm>
+    <div class="md-toolbar-tools">
+      <h3 class="ng-binding">Заказ</h3>
+      <span class="flex"></span>
+    </div>
+  </md-toolbar>
+</md-content>
+
+<md-input-container>
+      <label>Стол</label>
+      <input disabled ng-model="table">
+</md-input-container>
+  <md-list>
+    <md-subheader class="md-no-sticky">Заказ</md-subheader>
+      <md-list-item class="md-2-line" ng-click="goToOrder(1);">
+        <div class="md-list-item-text" layout="column">
+          <h4>Кальян</h4>
+          <p>600 руб</p>
+        </div>
+        <md-divider></md-divider>
+      </md-list-item>
+  
+    <md-list-item class="md-2-line" ng-click="goToOrder(2);">
+    <div class="md-list-item-text" layout="column">
+      <h4>Чай</h4>
+      <p>200 руб</p>
+    </div>
+     <md-divider></md-divider>
+    </md-list-item>
+
+    <md-list-item class="md-2-line" ng-click="goToOrder(3);">
+    <div class="md-list-item-text" layout="column">
+      <h4>Кальян</h4>
+      <p>800 руб</p>
+    </div>
+     <md-divider></md-divider>
+    </md-list-item>
+
+  </md-list>
+
+  <md-content>
+  <md-toolbar flex-offset-sm>
+    <div class="md-toolbar-tools">
+      <h3 class="ng-binding">Итого:</h3><span>1600 руб</span>
+      <span class="flex"></span>
+      <md-button class="md-raised md-warn">Закрыть заказ</md-button>
+    </div>
+  </md-toolbar>
+</md-content>
